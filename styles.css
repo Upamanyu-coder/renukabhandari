@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #FF69B4, #FF1493);
+    color: white;
+  }
+  
+  .logo {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #FF1493;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 20px 25px;
+  }
+  
+  .image-content {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .photo-background {
+    background: pink;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    position: relative;
+  }
+  
+  .photo-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .social-icons {
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-icons a {
+    margin: 10px 0;
+  }
+  
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .social-icons a:hover {
+    color: #007BFF; /* Change color on hover */
+    transform: scale(1.2); /* Slightly increase size on hover */
+  }
+
+  .social-icons a i {
+    font-size: 24px; /* Icon size */
+    transition: all 0.3s ease;
+  }
+
+  .social-icons a:hover i {
+    transform: scale(1.2); /* Slightly increase icon size on hover */
+  }
+
+  .social-icons a span {
+    display: none; /* Hide the text by default */
+    transition: opacity 0.3s ease;
+  }
+
+  /* Show text on hover */
+  .social-icons a:hover span {
+    display: inline-block;
+    opacity: 1; /* Make the text visible */
+  }
+
+
+  .footer {
+    background: linear-gradient(90deg, #FF69B4, #FF1493);
+    color: white;
+    align-items:center ;
+    padding: 5px;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+  
+  .footer p{
+    text-align: center;
+    padding: 0%;
+  }
+  
