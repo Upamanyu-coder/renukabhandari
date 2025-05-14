@@ -1,5 +1,14 @@
 # renukabhandari
-on:** Easy-to-find icons linking to her profiles on:
+# Renuka Bhandari - Personal Portfolio/Landing Page
+
+This repository contains the source code for Renuka Bhandari's personal landing page. It's a simple, single-page website designed to introduce her, showcase her work as a travel vlogger and lifestyle influencer, and provide links to her social media profiles and contact information.
+
+## ✨ Features
+
+*   **Responsive Design:** Aims to be accessible on various devices (though `styles.css` would confirm full responsiveness).
+*   **Clear Introduction:** Highlights Renuka's passion as a travel vlogger and lifestyle influencer, focusing on Nepal.
+*   **Direct Email Contact:** A prominent "Contact Renuka via Email" button using a `mailto:` link with a pre-filled subject and body.
+*   **Social Media Integration:** Easy-to-find icons linking to her profiles on:
     *   Facebook
     *   Instagram
     *   TikTok
